@@ -19,3 +19,19 @@ const :
  - does't create properties in the window object.
 
 */
+
+// ex
+const CONSTVAR = 1;
+if(true){
+    const CONSTVAR = 2;
+    console.log(CONSTVAR);
+}
+console.log(CONSTVAR);
+
+const PERSON = {
+    'nake_name' : 'mo',
+    'age' : 25
+}
+PERSON.nake_name = 'mo-bark'
+
+console.log(PERSON);
