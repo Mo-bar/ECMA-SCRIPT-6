@@ -14,3 +14,11 @@ person.age = 26
 person.infos = function(){ person.infos; console.log('Age : '+person.age)}
 
 person.infos()
+
+//! Destructuring assignment
+
+let {name, lName, age} = person
+console.log(age,name,lName)
+
+let [one, two, three] = [1,2,3]
+console.log(one, two, three)
