@@ -1,7 +1,11 @@
 let person = {
     name : 'Mourad',
     lName : 'BARKOUCH',
-    infos : function() {console.log(`Fist name : ${this.name} \nlast name : ${this.lName}`)}
+    adress: {
+        city: 'Casablanca',
+        country : 'Morocco'
+    },
+    infos : function() {console.log(`Fist name : ${this.name} \nlast name : ${this.lName} \nCountry : ${this.adress.country}`)}
 }
 
 person.infos()
